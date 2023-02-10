@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind.css</title>
+</head>
+
+<body>
+    <header class="flex bg-white justify-between px-6 py-4">
+        <div class="logo">
+            <h1 class="text-2xl font-bold cursor-pointer">folio</h1>
+        </div>
+
+        <div class="flex justify-center items-center cursor-pointer md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+        </div>
+        <div class="nav hidden md:block">
+            <nav class="navbar">
+                <ul class="flex space-x-6">
+                    <li class="text-lg font-medium cursor-pointer hover:border-b-2 hover:border-yellow-900">creative demo</li>
+                    <li class="text-lg font-medium cursor-pointer hover:border-b-2 hover:border-yellow-900">pages</li>
+                    <li class="text-lg font-medium cursor-pointer hover:border-b-2 hover:border-yellow-900">about me.</li>
+                    <li class="text-lg font-medium cursor-pointer hover:border-b-2 hover:border-yellow-900">contact.</li>
+                    <li class="text-lg font-medium cursor-pointer hover:border-b-2 hover:border-yellow-900">support</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="dashboard flex justify-between items-center  h-96 p-80">
+            <div class="left flex flex-col justify-center items-start -ml-10">
+                <h2 class="font-medium text-lg pb-12">ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER</h2>
+                <h1 class="text-7xl font-bold">I design digital crafts for clients.</h1>
+                <div
+                    class="btn flex flex-row pt-20 justify-center items-center text-lg font-bold cursor-pointer">
+                    <div class="bg-yellow-400 space-x-2 p-3 flex rounded-lg justify-center items-center">
+                        <button class="hover:border-b-2 hover:border-yellow-900">EXPLORE WORKS
+                        </button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="right -mr-20">
+                <img class="w-[900px]" src="./assests/girl.png" alt="girl.png">
+            </div>
+        </div>
+
+        <section class="flex flex-wrap justify-center items-center mt-32 px-72">
+            <div class="w-80 mx-3 hover:cursor-pointer hover:rounded-lg   hover:w-72 hover:bg-yellow-600">
+                <div class="border-2 border-green-500  bg-slate-400 rounded-lg">
+                    <img src="/assests/girl.png" alt="">
+                </div>
+                <div class="text-center my-2">
+                    <h1 class="text-xl font-bold">BRANDING</h1>
+                    <p class="text-lg font-medium">Perfumed</p>
+                </div>
+            </div>
+            <div class="w-80 mx-3 hover:cursor-pointer hover:rounded-lg  hover:w-72 hover:bg-yellow-600 ">
+                <div class="border-2 border-green-500  bg-slate-400 rounded-lg">
+                    <img src="/assests/girl.png" alt="">
+                </div>
+                <div class="text-center my-2">
+                    <h1 class="text-xl font-bold">BRANDING</h1>
+                    <p class="text-lg font-medium">Perfumed</p>
+                </div>
+            </div>
+            <div class="w-80 mx-3 hover:cursor-pointer hover:rounded-lg  hover:w-72 hover:bg-yellow-600 ">
+                <div class="border-2 border-green-500  bg-slate-400 rounded-lg">
+                    <img src="/assests/girl.png" alt="">
+                </div>
+                <div class="text-center my-2">
+                    <h1 class="text-xl font-bold">BRANDING</h1>
+                    <p class="text-lg font-medium">Perfumed</p>
+                </div>
+            </div>
+            <div class="w-80 mx-3 hover:cursor-pointer hover:rounded-lg  hover:w-72 hover:bg-yellow-600">
+                <div class="border-2 border-green-500  bg-slate-400 rounded-lg">
+                    <img src="/assests/girl.png" alt="">
+                </div>
+                <div class="text-center my-2">
+                    <h1 class="text-xl font-bold">BRANDING</h1>
+                    <p class="text-lg font-medium">Perfumed</p>
+                </div>
+            </div>
+            <div class="w-80 mx-3 hover:cursor-pointer hover:rounded-lg  hover:w-72 hover:bg-yellow-600 ">
+                <div class="border-2 border-green-500  bg-slate-400 rounded-lg">
+                    <img src="/assests/girl.png" alt="">
+                </div>
+                <div class="text-center my-2">
+                    <h1 class="text-xl font-bold">BRANDING</h1>
+                    <p class="text-lg font-medium">Perfumed</p>
+                </div>
+            </div>
+            <div class="w-80 mx-3 hover:cursor-pointer hover:rounded-lg  hover:w-72 hover:bg-yellow-600 ">
+                <div class="border-2 border-green-500  bg-slate-400 rounded-lg">
+                    <img src="/assests/girl.png" alt="">
+                </div>
+                <div class="text-center my-2">
+                    <h1 class="text-xl font-bold">BRANDING</h1>
+                    <p class="text-lg font-medium">Perfumed</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
